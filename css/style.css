@@ -1,0 +1,293 @@
+/*----common---*/
+*{
+	 margin:0 auto;
+	 box-sizing:border-box;
+ } 
+.container{
+	  margin:0 auto;
+	  padding:0 15px;
+   }
+.flex{
+	   display:flex;
+	   flex-wrap:wrap;
+	   margin-right:-15px;
+	   margin-left:-15px;
+   }
+.flex> *{
+	   padding: 0px 15px;
+	   border: 2px solid gray;
+   }
+   .justify-content-start{
+	   justify-content:flex-start !important;
+   }
+    .justify-content-end{
+	   justify-content:flex-end !important;
+   }
+    .justify-content-between{
+	   justify-content:space-between !important;
+   }
+    .justify-content-around{
+	   justify-content:space-around !important;
+   }
+    .justify-content-evenly{
+	   justify-content:space-evenly !important;
+   }
+   .align-items-start{
+	   align-items:flex-start !important;
+   }
+    .align-items-end{
+	   align-items:flex-end  !important;
+   }
+    .align-items-center{
+	   align-items:center  !important;
+   }
+    .align-items-baseline{
+	   align-items:baseline  !important;
+   }
+   .justify-content-center{
+	   justify-content: center;
+   }
+   .text-left{
+	 text-align:left !important;
+   }
+   .text-center{
+	 text-align:center !important;
+   }
+   .text-right{
+	 text-align:right !important;
+   }
+   .text-justify{
+	 text-align:justify !important;
+   }
+/*----header secction---*/
+.background{
+	width:100%;
+}
+.red{
+background:red;
+}
+.green{
+background:green;
+}
+.header-top{
+	height:40px;
+	width:50%;
+	background:yellow;
+}
+.section{
+	height:40px;
+	width:40%;
+	background:yellow;
+}
+.navsection{
+	height:60px;
+	width:100%;
+	background:black;
+	padding:10px;
+}
+.logo{ 
+	width:25%;
+	height:40px;
+	background:yellow;
+}
+.about{
+	width:55%;
+	height:40px;
+	background:yellow;
+}
+.book{
+    width:10%;
+	height:40px;
+	background:yellow;	
+}
+.banner-section{
+	padding: 150px 20px;
+	width: 100%;
+}
+.welcome{
+	 width:50%;
+	 height:300px;
+	 background: yellow;
+}
+.icon{
+	width:20%;
+	height:300px;
+	background: yellow;
+}
+.btn{
+	  display: inline-block;
+	  background-color:yellow;
+	  padding:12px 30px;
+   }
+/*abt-section*/
+
+.abt-text{
+	width: 45%;
+	height: 500px;
+    background: yellow;
+}
+.abt-img{
+	width:45%;
+	height:500px;
+    background: yellow;
+}
+.abt{
+	padding:80px 10px;
+}
+/*why-choose*/
+.head{
+	width: 100%;
+	background: yellow;
+	height: 50px;
+	margin-bottom:10px;
+}
+.box{
+	height:200px;
+	width:30%;
+	background: yellow;
+	padding-top:10px;
+}
+.why-choose1{
+	padding: 10px;
+}
+/*menu*/
+.menu{
+	padding: 10px;
+}
+.list{
+	width:100%;
+	background:yellow;
+	margin-bottom:10px;
+}
+.items{
+	width:45%;
+	height:60px;
+	background:yellow;
+	margin-bottom:10px;
+}
+/*SPECIALS*/
+.SPECIALS{
+	padding:10px;
+}
+.SPECIALS-list{
+	width:25%;
+	height: 300px;
+	background:yellow;
+}
+.SPECIALS-text{
+	width:70%;
+	height: 300px;
+	background:yellow;
+	margin-bottom:40px;
+}
+/*events*/
+.events{
+	padding:10px;
+}
+.events-img{
+	width:45%;
+	height: 300px;
+	background: yellow;
+}
+.events-text{
+	width:45%;
+	height: 300px;
+	background:yellow;
+}
+.circle{
+	 text-align: center;
+	 padding: 20px 0;
+  }
+  .circle span{
+	  display: inline-block;
+	  width: 12px;
+	  height: 12px;
+	  border:  1px solid yellow;
+	  background-color: #fff;
+	  opacity: 0.8;
+	  border-radius: 50%;
+	  margin: 0 3px;
+	  cursor: pointer;
+  }
+  .circle span:hover{
+	  background-color: yellow;
+  }
+  /*RESERVATION*/
+  .RESERVATION{
+	padding:10px;
+  }
+  .RESERVATION-form{
+	width: 100%;
+	height: 400px;
+	background: yellow;
+    margin-bottom: 10px;
+  }
+  /*TESTIMONIALS*/
+  .TESTIMONIALS{
+	padding:10px;
+  }
+ .TESTIMONIALS-says{
+	width:30%;
+	height: 200px;
+	background: yellow;
+	margin-bottom: 100px;
+ }
+ /*GALLERY*/
+ .GALLERY{
+	 padding:10px;
+ }
+ .GALLERY-imgs{
+	 background:yellow;
+	 width:25%;
+	 height: 300px;
+ }
+ /*CHEFS*/
+ .CHEFS{
+    padding:10px;
+ }
+ .CHEFS-img{
+	 background:yellow;
+	 width:30%;
+	 height: 400px;
+ }
+ /*CONTACT*/
+ .CONTACT{
+	 padding:10px;
+ }
+ .CONTACT-map{
+	 background:yellow;
+	 width:100%;
+	 height: 400px;
+	 margin-bottom:30px;
+ }
+ .CONTACT-form{
+	 background:yellow;
+	 width:100%;
+	 height: 600px;
+	 margin-bottom:30px;
+ }
+ /*footer*/
+ .footer{
+	 padding:10px;
+ }
+ .footer-info{
+	 background:yellow;
+	 width:20%;
+	 height: 300px;
+	 margin-bottom:30px;
+ }
+ .footer-subscribe{
+	  background:yellow;
+	 width:30%;
+	 height: 300px;
+	 margin-bottom:30px;
+ }
+ /*finish*/
+ .copyright{
+	 padding:10px;
+ }
+ .copyright-bootstrap{
+	 width:20%;
+	 height: 30px;
+	 background:black;
+ }
